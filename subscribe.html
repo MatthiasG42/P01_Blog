@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8"/>
+        <title>Subscribe to my Blog</title>
+        <meta name="Matthias Blog"content="Subscription"/>
+    
+    <!-- LINK to the index stylesheet -->
+        <link rel="stylesheet" href="css/subscribe_style.css">
+
+    <!-- Link to the Google Font, set in index_style in class container-->
+        <link href="https://fonts.googleapis.com/css2?family=Baloo+Tamma+2:wght@400;500;600;700;800&display=swap" rel="stylesheet"> 
+    </head>
+    
+    <body>
+        <div class = "container" role="main">
+            <div class="header box">
+                <div class="nested_header">
+                    <div class="header_content" id="hd-title">      
+                    </div>
+                    <div class="header_content" id="hd-home">
+                        <a href="index.html">HOME</a>
+                    </div>
+                    <div class="header_content" id="hd-countries">
+                        <a href="countries.html">COUNTRIES</a>
+                    </div>
+                    <div class="header_content" id="hd-about">
+                        <a href="biography.html">ABOUT ME</a>
+                    </div>
+                </div>
+            </div>
+<!-- Biography Info in Unordered Lists-->
+            <div class="content box" id="Biography">
+                <h1>Here you can subscribe to my blog</h1>
+                <ul>
+                    <li>
+                        <img src="./media/subscribe_bell.png" alt="Subscribe Please :)" width="150px" height="150px">
+                    </li>
+                    <li>
+                        <br>
+                        <label for="sub_firstname">First Name</label>
+                        <input type="text" id="sub_firstname" name=fist_name><br>
+                        <label for="sub_name">Name</label>
+                        <input type="text" id="sub_name" name=name><br>
+                        <br>
+                        <label for="sub_email">Your email</label>
+                        <input type="text" id="sub_emaile" name=email><br>
+                        <br>
+                        <label for="found-how">How did you find my blog?</label>
+                        <select id="found-how">
+                        <option value="">--Please choose an option--</option>
+                        <option value="google">A Google Search</option>
+                        <option value="friends">Over friends</option>
+                        <option value="Recommendation">Other Recommendation</option>
+                        <option value="Udacity">With Udacity :)</option>
+                        </select>
+                        <br>
+                        <button id=subscribe_button onclick="alert('Thank You!\nYou will now receive updates')"> Subscribe </button>
+                        
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer box">
+                <div class="nested_footer">
+                    <div class="footer_content" id="ft-logo">      
+                    </div>
+                    <div class="footer_content" id="ft-subscribe">
+                        <a href="subscribe.html">SUBSCRIBE</a>
+                    </div>
+                    <div class="footer_content" id="ft-copyright">
+                        <a href="index.html">COPYRIGHT</a>
+                    </div>
+                    <div class="footer_content" id="ft-agb">
+                        <a href="index.html">AGB</a>
+                    </div>
+                    <div class="footer_content" id="ft-contact">
+                        <a href="index.html">CONTACT</a>
+                    </div>
+                </div>
+            </div>
+          </div>
+    </body>
+</html>

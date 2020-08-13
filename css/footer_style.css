@@ -1,0 +1,87 @@
+a{
+  color: black; 
+  text-decoration: none;
+}
+
+/*footer Content - Setting the Flexbox with Title-Image and Links*/
+.nested_footer{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.footer_content{
+  /* border: 1px solid #4B7B96; */
+  height: auto;
+  width: auto;  
+  border-radius: 5px;
+}
+
+#ft-logo{
+  height: 30px;
+  width: 40px;
+  background-image: url(../media/Footer_lens.png);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ft-copyright{
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
+  padding: 0.1em;
+}
+
+#ft-agb{
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
+  padding: 0.1em;
+}
+
+#ft-contact{
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
+  padding: 0.1em;
+}
+
+#ft-subscribe{
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
+  padding: 0.1em;
+}
+
+/* footer Hover-over section */
+#ft-copyright:hover{
+  background-color: #7C333A;
+  opacity: 0.8;
+  text-decoration: underline;
+  color:white;
+}
+
+#ft-agb:hover{
+  background-color: #7C333A;
+  opacity: 0.8;
+  color: white;
+  text-decoration: underline;
+}
+
+#ft-contact:hover{
+  background-color: #7C333A;
+  opacity: 0.8;
+  color: white;
+  text-decoration: underline;
+}
+
+#ft-subscribe:hover{
+  background-color: #7C333A;
+  opacity: 0.8;
+  color: white;
+  text-decoration: underline;
+}  

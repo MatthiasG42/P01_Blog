@@ -1,0 +1,56 @@
+/*about Content - Setting the Flexbox with Avatar Image, Short Info and Subscribe*/
+.nested_about{
+  display: flex;
+  flex-direction: column;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  justify-content: space-evenly;
+  align-items: center;
+}
+  
+.about_content{
+  /* border: 1px solid #4B7B96; */
+  height: auto;
+  width: auto;  
+  border-radius: 5px;
+  width: 180px;
+}
+  
+#ab-picture{
+  height: 180px;
+  width: 180px;
+  background-image: url(../media/Matthias_Kenia2.jpg);
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#ab-welcome{
+  text-align: center;
+  font-size: 1.25em;
+  margin: auto;
+  padding: 0.1em;
+  height: auto;
+}
+
+#ab-info{
+  text-align: left;
+  font-size: 1em;
+  margin: auto;
+  padding: 0.1em;
+}
+
+#ab-sub{
+  text-align: center;
+  font-size: 1em;
+  margin: auto;
+  padding: 0.1em;
+}
+
+/* Hover-Over Section */
+#ab-sub:hover{
+  background-color: #7C333A;
+  opacity: 0.8;
+  color: white;
+  text-decoration: underline;
+}
