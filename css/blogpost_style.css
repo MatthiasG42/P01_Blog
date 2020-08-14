@@ -10,11 +10,38 @@ ul {
   padding-left: 25px;
 }
 
+/* Adjusting the appearance of images */
 img {
   border:3px solid black;
   object-fit: contain;
   width: 90%; max-width: 800px;
   height: auto;
+}
+
+/* Adjusting the caption of images */
+figcaption {
+  font-style: italic;
+  padding: 2px;
+  text-align: left;
+}
+
+/* Adjusting the size of the social media icons */
+.blog_icon{
+  width: 40px;
+}
+
+.blog_avatar{
+  width: 100px;
+}
+
+/* Costum design button */
+button{
+  background-color:#4B7B96;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;  
+  align-content: center;
 }
 
 /* MAIN Page Content - Setting the Grid

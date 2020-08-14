@@ -2,6 +2,15 @@ img {
   border:4px solid black;
 }
 
+button{
+  background-color:#7C333A;
+  border: none;
+  color: white;
+  padding: 15px 30px;
+  text-align: center;  
+  align-content: center;
+}
+
 /*blogcard Content - Setting the Flexbox for the cards*/
 .nested_blogcard{
   display: flex;

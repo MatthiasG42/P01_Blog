@@ -2,6 +2,7 @@
 <html lang="en">
     <head>
         <meta charset="utf-8"/>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Homepage Matthias Blog</title>
         <meta name="Matthias Blog"content="Home">
         
@@ -13,8 +14,8 @@
     </head>
     
     <body>
-        <div class = "container" role="main">
-            <div class="header box">
+        <main class = "container">     
+            <header class="header box">
                 <div class="nested_header">
                     <div class="header_content" id="hd-title">      
                     </div>
@@ -28,32 +29,33 @@
                         <a href="biography.html">ABOUT ME</a>
                     </div>
                 </div>
-            </div>
+            </header> 
 
-            <div class="content box">
+            <section class="content box">
                 <h1>Blog Posts</h1>
                 <div class="nested_blogcard">
                     <div class="blogcard_content" id="bc-card1">
-                        <a href="blogpost_001-beijing.html">Let's Visit Beijing</a>
+                        <a href="blogpost_001-beijing.html"><b>Let's Visit Beijing</b></a>
                         <br>
                         <a href="blogpost_001-beijing.html">
                             <img src="media/Blogpost_001-Beijing_1x1.jpg" width="180px" alt="Beijing">
                         </a>
                         <p>A glimpse into the beautiful city of Beijing, guided by Matthias</p>
+                        <a href="blogpost_001-beijing.html"><button>Read about Beijing</button></a>
                     </div>
                     <div class="blogcard_content" id="bc-card2">
-                        <a href="blogpost_002-newyork.html">Let's Visit New York</a>
+                        <a href="blogpost_002-newyork.html"><b>Let's Visit New York</b></a>
                         <br>
                         <a href="blogpost_002-newyork.html">
                             <img src="media/Blogpost_002-NewYork_1x1.jpg" width="180px" alt="New York">
                         </a>
                         <p>A glimpse into the fascinating  city of New York, guided by Matthias</p>
+                        <a href="blogpost_002-newyork.html"><button>Read about New York</button></a>
                     </div>
                 </div>
+            </section>
 
-            </div>
-
-            <div class="about box">
+            <summary class="about box">
                 <div class="nested_about">
                     <div class="about_content" id="ab-picture">      
                     </div>
@@ -63,18 +65,25 @@
                     <div class="about_content" id="ab-info">
                         <b>SHORT INFO</b>
                         <ul>
-                            <li>Journeys around the world</li>
-                            <li>Over a decade of photography experience</li>
-                            <li>Hopes to inspire</li>
+                            <li>Journeys <i>around the world</i></li>
+                            <li>Over a <b>decade</b> of photography experience</li>
+                            <li>Hopes to <u>inspire</u></li>
                           </ul> 
                     </div>
                     <div class="about_content" id="ab-sub">
                         <a href="subscribe.html">SUBSCRIBE</a>
                     </div>
+                    <div class="about_content" id="social">
+                        <p>Follow me on</p>
+                            <a href="https://www.facebook.com/"><img class="blog_icon_home" src="media/Icon-facebook.jpg" alt="Facebook"></a>
+                            <a href="https://www.twitter.com/"><img class="blog_icon_home" src="media/Icon-Twitter.jpg" alt="Twitter"></a>
+                            <a href="https://www.linkedin.com/"><img class="blog_icon_home" src="media/Icon-linkedIn.jpg" alt="LinkedIn"></a>
+
+                    </div class="about_content">
                 </div>
-            </div>
+            </summary>
           
-            <div class="footer box">
+            <footer class="footer box">
                 <div class="nested_footer">
                     <div class="footer_content" id="ft-logo">      
                     </div>
@@ -91,7 +100,8 @@
                         <a href="index.html">CONTACT</a>
                     </div>
                 </div>
-            </div>
-          </div>
+            </footer>
+        
+          </main>
     </body>
 </html>
